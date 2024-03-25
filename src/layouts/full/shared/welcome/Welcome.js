@@ -37,8 +37,8 @@ const Welcome = () => {
           variant="filled"
           sx={{ width: '100%', color: 'white' }}
         >
-          <AlertTitle>Welcome To Modernize</AlertTitle>
-          Easy to customize the Template!!!
+          <AlertTitle>Bem Vindo a IS Sistemas</AlertTitle>
+          É um prazer ter você usando nossa tecnologia!!!!
         </Alert>
       </Snackbar>
     </React.Fragment>
