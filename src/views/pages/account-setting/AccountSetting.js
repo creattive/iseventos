@@ -17,7 +17,7 @@ const BCrumb = [
     title: 'Home',
   },
   {
-    title: 'Account Setting',
+    title: 'Configurações da Conta',
   },
 ];
 
@@ -53,9 +53,9 @@ const AccountSetting = () => {
   };
 
   return (
-    <PageContainer title="Account Setting" description="this is Account Setting page">
+    <PageContainer title="Configurações da Conta" description="this is Account Setting page">
       {/* breadcrumb */}
-      <Breadcrumb title="Account Setting" items={BCrumb} />
+      <Breadcrumb title="Configurações da Conta" items={BCrumb} />
       {/* end breadcrumb */}
 
       <Grid container spacing={3}>
@@ -71,26 +71,26 @@ const AccountSetting = () => {
                 <Tab
                   iconPosition="start"
                   icon={<IconUserCircle size="22" />}
-                  label="Account"
+                  label="Conta"
                   {...a11yProps(0)}
                 />
 
                 <Tab
                   iconPosition="start"
                   icon={<IconBell size="22" />}
-                  label="Notifications"
+                  label="Notificaçoes"
                   {...a11yProps(1)}
                 />
                 <Tab
                   iconPosition="start"
                   icon={<IconArticle size="22" />}
-                  label="Bills"
+                  label="Faturas"
                   {...a11yProps(2)}
                 />
                 <Tab
                   iconPosition="start"
                   icon={<IconLock size="22" />}
-                  label="Security"
+                  label="Segurança"
                   {...a11yProps(3)}
                 />
               </Tabs>
