@@ -66,8 +66,7 @@ const BannerContent = () => {
           }}
         >
           <Typography variant="h5" fontWeight={300}>
-            Modernize comes with light & dark color skins, well designed dashboards, applications
-            and pages.
+          Soluções audiovisuais e estruturais completas.
           </Typography>
         </motion.div>
       </Box>
@@ -83,11 +82,11 @@ const BannerContent = () => {
       >
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} mt={3}>
           <StyledButton variant="contained" color="primary" href="#">
-            Buy Now
+            Cases
           </StyledButton>
 
           <StyledButton2 variant="outlined" component={NavLink} to="/dashboards/modern">
-            Live Preview
+            Clientes
           </StyledButton2>
         </Stack>
       </motion.div>
