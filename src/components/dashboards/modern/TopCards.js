@@ -14,21 +14,21 @@ const topcards = [
   {
     href: '/user-profile',
     icon: icon2,
-    title: 'Profile',
+    title: 'Clientes',
     digits: '3,685',
     bgcolor: 'primary',
   },
   {
     href: '/apps/blog/posts',
     icon: icon3,
-    title: 'Blog',
+    title: 'Parceiros',
     digits: '256',
     bgcolor: 'warning',
   },
   {
     href: '/apps/calendar',
     icon: icon4,
-    title: 'Calendar',
+    title: 'Eventos',
     digits: '932',
     bgcolor: 'secondary',
   },
@@ -49,7 +49,7 @@ const topcards = [
   {
     href: '/apps/contacts',
     icon: icon1,
-    title: 'Contacts',
+    title: 'Agências',
     digits: '48',
     bgcolor: 'info',
   },
