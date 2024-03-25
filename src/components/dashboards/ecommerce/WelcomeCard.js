@@ -17,12 +17,12 @@ const WelcomeCard = () => {
                 },
               }}
             >
-              <Typography variant="h5">Welcome back Mathew!</Typography>
+              <Typography variant="h5">Bem vindo de volta Wagner!</Typography>
               <Typography variant="subtitle2" my={2} color="textSecondary">
-                You have earned 54% more than last month which is great thing.
+              Você ganhou 54% a mais que no mês passado, o que é ótimo.
               </Typography>
               <Button variant="contained" color="primary">
-                Check
+                Checar
               </Button>
             </Box>
           </Grid>

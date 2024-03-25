@@ -14,7 +14,7 @@ import { Link, Typography } from '@mui/material';
 
 const RecentTransactions = () => {
   return (
-    <DashboardCard title="Recent Transactions">
+    <DashboardCard title="Movimentações Rescentes">
       <>
         <Timeline
           className="theme-timeline"
@@ -36,7 +36,7 @@ const RecentTransactions = () => {
               <TimelineDot color="primary" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment received from John Doe of $385.90</TimelineContent>
+            <TimelineContent>Pagamento recebido de John $385.90</TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>10:00 am</TimelineOppositeContent>
@@ -45,7 +45,7 @@ const RecentTransactions = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
+              <Typography fontWeight="600">Nova venda registrada</Typography>{' '}
               <Link href="/" underline="none">
                 #ML-3467
               </Link>
@@ -57,7 +57,7 @@ const RecentTransactions = () => {
               <TimelineDot color="success" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment was made of $64.95 to Michael</TimelineContent>
+            <TimelineContent>O pagamento foi feito de $ 64,95 para Michael</TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>09:30 am</TimelineOppositeContent>
@@ -66,7 +66,7 @@ const RecentTransactions = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
+              <Typography fontWeight="600">Nova venda registrada</Typography>{' '}
               <Link href="/" underline="none">
                 #ML-3467
               </Link>
@@ -79,7 +79,7 @@ const RecentTransactions = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New arrival recorded</Typography>{' '}
+              <Typography fontWeight="600">Novidade registrada</Typography>{' '}
               <Link href="/" underline="none">
                 #ML-3467
               </Link>

@@ -45,7 +45,7 @@ const apps = [
   {
     link: '/apps/calendar',
     img: app1,
-    title: 'Calendar'
+    title: 'Eventos'
   },
   {
     link: '/apps/chats',
@@ -55,7 +55,7 @@ const apps = [
   {
     link: 'apps/contacts',
     img: app3,
-    title: 'Contact'
+    title: 'Contato'
   },
   {
     link: 'apps/email',

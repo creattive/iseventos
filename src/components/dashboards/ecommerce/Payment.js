@@ -20,9 +20,9 @@ const Payment = () => {
           <Avatar src={icon1Img} alt={icon1Img} sx={{ width: 24, height: 24 }} />
         </Avatar>
         <Typography variant="subtitle2" color="textSecondary" mt={3}>
-          Payments
+          Pagamentos
         </Typography>
-        <Typography variant="h4">$678,298</Typography>
+        <Typography variant="h4">R$ 1678,00</Typography>
         <Stack direction="row" spacing={1} mt={1} alignItems="center">
           <Avatar sx={{ bgcolor: successlight, width: 20, height: 20 }}>
             <IconArrowUpLeft width={16} color="#39B69A" />
