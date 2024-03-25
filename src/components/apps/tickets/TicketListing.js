@@ -87,19 +87,19 @@ const TicketListing = () => {
                 <Typography variant="h6">Id</Typography>
               </TableCell>
               <TableCell>
-                <Typography variant="h6">Ticket</Typography>
+                <Typography variant="h6">O.S</Typography>
               </TableCell>
               <TableCell>
-                <Typography variant="h6">Assigned To</Typography>
+                <Typography variant="h6">criado por</Typography>
               </TableCell>
               <TableCell>
                 <Typography variant="h6">Status</Typography>
               </TableCell>
               <TableCell>
-                <Typography variant="h6">Date</Typography>
+                <Typography variant="h6">Data</Typography>
               </TableCell>
               <TableCell align="right">
-                <Typography variant="h6">Action</Typography>
+                <Typography variant="h6">Ação</Typography>
               </TableCell>
             </TableRow>
           </TableHead>

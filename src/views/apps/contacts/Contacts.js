@@ -17,8 +17,8 @@ const Contacts = () => {
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
   const mdUp = useMediaQuery((theme) => theme.breakpoints.up('md'));
   return (
-    <PageContainer title="Contact App" description="this is Contact page">
-      <Breadcrumb title="Contact app" subtitle="List Your Contacts" />
+    <PageContainer title="Parceiros" description="this is Contact page">
+      <Breadcrumb title="Parceiros" subtitle="List Your Contacts" />
       <AppCard>
         {/* ------------------------------------------- */}
         {/* Left Part */}
