@@ -47,11 +47,11 @@ const BannerContent = () => {
             },
           }}
         >
-          Most powerful &{' '}
+          Transformando suas idéias {' '}
           <Typography component={'span'} variant="none" color={'primary'}>
-            Developer friendly
+            em eventos
           </Typography>{' '}
-          dashboard
+          de sucesso!
         </Typography>
       </motion.div>
       <Box pt={4} pb={3}>

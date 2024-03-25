@@ -47,7 +47,7 @@ const Navigations = () => {
         onMouseLeave={handleClose}
         endIcon={<IconChevronDown size="15" style={{ marginLeft: '-5px', marginTop: '2px' }} />}
       >
-        Demos
+        Sobre
       </StyledButton>
       {open && (
         <Paper
@@ -77,7 +77,7 @@ const Navigations = () => {
           }}
           endIcon={<IconChevronDown size="15" style={{ marginLeft: '-5px', marginTop: '2px' }} />}
         >
-          Pages
+          Serviços
         </StyledButton>
         {open2 && (
           <Paper
@@ -114,13 +114,13 @@ const Navigations = () => {
         variant="text"
         href="https://demos.adminmart.com/premium/react/modernize-react/docs/index.html"
       >
-        Documentation
+        Sustentabilidade
       </StyledButton>
       <StyledButton color="inherit" variant="text" href="#">
-        Support
+        Cases
       </StyledButton>
       <Button color="primary" target="_blank" variant="contained" href="#">
-        Buy Now
+        Contatos
       </Button>
     </>
   );
