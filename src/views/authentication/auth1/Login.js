@@ -67,16 +67,16 @@ const Login = () => (
       >
         <Box p={4}>
           <AuthLogin
-            title="Welcome to Modernize"
+            title="Seja Bem vindo "
             subtext={
               <Typography variant="subtitle1" color="textSecondary" mb={1}>
-                Your Admin Dashboard
+                ao sistema interno da IS Eventos
               </Typography>
             }
             subtitle={
               <Stack direction="row" spacing={1} mt={3}>
                 <Typography color="textSecondary" variant="h6" fontWeight="500">
-                  New to Modernize?
+                  Não tem um conta?
                 </Typography>
                 <Typography
                   component={Link}
@@ -87,7 +87,7 @@ const Login = () => (
                     color: 'primary.main',
                   }}
                 >
-                  Create an account
+                  Solicite a sua conta
                 </Typography>
               </Stack>
             }
