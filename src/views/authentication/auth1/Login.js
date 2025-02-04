@@ -67,10 +67,10 @@ const Login = () => (
       >
         <Box p={4}>
           <AuthLogin
-            title="Seja Bem vindo a IS "
+            title="Seja Bem vindo a Estilo Vantagem "
             subtext={
               <Typography variant="subtitle1" color="textSecondary" mb={1}>
-                ao sistema interno da IS Eventos
+                Assistência e benefícios para Freelancers
               </Typography>
             }
             subtitle={
